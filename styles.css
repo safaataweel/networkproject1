@@ -1,0 +1,158 @@
+/* CSS styling */
+
+/* Set background image for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('w.jpg');
+    background-size: cover; /* Show entire image without distortion */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background */
+    background-position: center center; /* Center the background */
+    margin: 0;
+    padding: 0;
+    color: #E0E1DD; /* Light gray text color */
+    line-height: 1.6;
+    height: 100vh; /* Fills the entire viewport height */
+}
+
+/* Styling for main headings */
+h1 {
+    color: #E0E1DD; /* Light gray text color */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Class for blue text */
+.blueText {
+    color: #dbe7f5; /* Blue color */
+    font-style: italic;
+}
+
+/* Styling for boxes */
+.box {
+    background-color: #1B263B; /* Dark blue-gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    color: #E0E1DD; /* Light gray text color */
+}
+
+/* Styling for headers within boxes */
+.box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #E0E1DD; /* Light gray text color */
+}
+
+/* Styling for member boxes */
+.studentBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* To evenly distribute items */
+}
+
+/* Styling for individual members */
+.member {
+    width: 45%; /* Adjust the width as needed */
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(119, 141, 169, 0.8); /* Light blue background with opacity */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    flex: 1; /* Allow flexibility for width */
+    max-width: 45%; /* Adjust the maximum width as needed */
+}
+
+/* Hover effect for individual members */
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Additional styling for member content */
+.member h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #E0E1DD; /* Light gray text color */
+    text-align: center;
+}
+
+.member p {
+    font-size: 16px;
+    color: #E0E1DD; /* Light gray text color */
+}
+
+/* Adjust image sizes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for custom links */
+.custom-link {
+    display: block;
+    color: #E0E1DD; /* Light gray text color */
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect for custom links */
+.custom-link:hover {
+    color: #415A77; /* Blue color on hover */
+}
+
+/* Styling for boxes (additional) */
+.box {
+    background-color: rgba(27, 38, 59, 0.8); /* Dark blue-gray background with opacity */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    color: #E0E1DD; /* Light gray text color */
+    text-align: center; /* Center-align the links */
+}
+
+/* Styling for logo */
+.logo {
+    margin-right: 20px; /* Add some space between the logo and the heading */
+}
+
+/* Styling for logo image */
+.logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Restyling main headings */
+h1 {
+    color: #E0E1DD; /* Light gray text color */
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0; /* Remove margin to prevent extra space */
+}
+
+/* Flexbox to position the header items */
+.header {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    padding: 20px;
+    background-color: #0D1B2A; /* Dark blue background */
+}
